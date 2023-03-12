@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
         <p>
           <h1>Business Request</h1>
           <h2>
@@ -13,7 +12,7 @@ function App() {
             Budgets Monthly phone sales
           </h2>
         </p>
-        
+
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
@@ -23,7 +22,14 @@ function App() {
         >
           View the Dashboard Here
         </a>
-       
+        <a
+          className="App-link"
+          href="https://github.com/JohnKimaiyo/Month-Phone-Sales-Visualisation/blob/main/src/data/Actual%20and%20Budgeted%20Analysis.xlsx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download the  excel file here
+        </a>
       </header>
     </div>
   );
